@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: indianred;
+}
+.nav{
+    background-color:hotpink;
+    color: indianred;
+}
+.nav img{
+    width: 100px;
+}
+.nav button{
+    background-color:hotpink;
+    color: indianred;
+    padding: 0px 20px;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.Banner{
+    width: 100;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../imagenes/Panadero\ n.webp);
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    
+}
+.Banner h1{
+    color:aqua;
+    font-size: 10rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.Productos{
+    width: 100%;
+    height: auto;
+
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: center;
+    align-content: space-around;
+    gap: 10px;
+}
+.Productos .Producto{
+    overflow-x: hidden;
+    background-color: rgb(60, 195, 40);
+    width: 15%;
+    height: 500px;
+    box-shadow: 5px 10px 0px;
+    border-radius: 10%;
+}
+.Productos .Producto img{
+    width: 100%;
+    height: 50%;
+
+}
+.Contenido{
+    margin: 20px 10px;
+}
+.Producto button{
+    background-color:blueviolet;
+}
+button a{
+    padding: 10px 5px;
+}
+button:hover{
+    background-color: chocolate;
+}
